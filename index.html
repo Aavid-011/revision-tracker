@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3rd Semester Revision Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#007bff">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>3rd Semester Revision Tracker 📚</h1>
+            <a href="analytics.html" class="nav-link">View Analytics</a>
+        </header>
+        
+        <main>
+            <div class="card">
+                <h2>Add New Revision Topic</h2>
+                <div class="form-group">
+                    <label for="subject-select">Choose a subject:</label>
+                    <select id="subject-select">
+                        <option value="">--Please choose a subject--</option>
+                    </select>
+                </div>
+                
+                <div id="topics-container"></div>
+                
+                <div class="form-group">
+                    <label for="notify-time">Set Daily Reminder Time (Optional):</label>
+                    <input type="time" id="notify-time">
+                </div>
+
+                <button id="add-revision-btn">Add to Revision List</button>
+            </div>
+
+            <div class="card">
+                <h2>My Revision List</h2>
+                <div id="revision-list-container">
+                    <p>No topics added yet. Add one to get started!</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/notification.js"></script>
+</body>
+</html>

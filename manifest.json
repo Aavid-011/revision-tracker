@@ -1,0 +1,21 @@
+{
+  "name": "Semester Revision Tracker",
+  "short_name": "RevisionTracker",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "description": "A PWA to track your semester revision using spaced repetition.",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192.png?text=Icon192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/512.png?text=Icon512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
